@@ -1,0 +1,460 @@
+ERC report (2025-12-24T19:09:24-0500, Encoding UTF8)
+
+***** Sheet /
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(2150 mils, 8100 mils): Symbol J4 Pin SW-B [SW-B, Bidirectional, Line]
+    @(12800 mils, 8150 mils): Symbol U2 Pin 3 [VSS, Power output, Line]
+[lib_symbol_mismatch]: Symbol 'DM3BT-DSF-PEJS' doesn't match copy in library 'DM3BT-DSF-PEJS'
+    ; warning
+    @(2850 mils, 8100 mils): Symbol J4 [DM3BT-DSF-PEJS]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(7850 mils, 6900 mils): Symbol U4 Pin 5 [SDO, Bidirectional, Line]
+    @(12800 mils, 8150 mils): Symbol U2 Pin 3 [VSS, Power output, Line]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(9050 mils, 7250 mils): Symbol C [C]
+    @(9550 mils, 7200 mils): Symbol C [C]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(10100 mils, 6350 mils): Symbol C [C]
+    @(10650 mils, 7150 mils): Symbol C [C_Small]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(9650 mils, 7050 mils): Symbol C [C]
+    @(9750 mils, 6950 mils): Symbol C [C]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(9550 mils, 7200 mils): Symbol C [C]
+    @(9650 mils, 7050 mils): Symbol C [C]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(9750 mils, 6950 mils): Symbol C [C]
+    @(10150 mils, 6950 mils): Symbol C [C]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6750 mils, 10150 mils): Symbol J2 Pin 8 [Pin_8, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 8250 mils): Symbol U1 Pin 12 [PH0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6750 mils, 10250 mils): Symbol J2 Pin 6 [Pin_6, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 8350 mils): Symbol U1 Pin 13 [PH1, Bidirectional, Line]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(10150 mils, 6950 mils): Symbol C [C]
+    @(10250 mils, 7050 mils): Symbol C [C]
+[label_multiple_wires]: Label connects more than one wire at 2540000, 1828800
+    ; warning
+    @(10000 mils, 7200 mils): Label 'VDD'
+    @(10000 mils, 6950 mils): Vertical Wire, length 300 mils
+[label_multiple_wires]: Label connects more than one wire at 2565400, 1816100
+    ; warning
+    @(10100 mils, 7150 mils): Label 'VDD'
+    @(10100 mils, 7050 mils): Vertical Wire, length 200 mils
+[multiple_net_names]: Both SWCLK and SWDIO are attached to the same items; SWCLK will be used in the netlist
+    ; warning
+    @(6500 mils, 10400 mils): Label 'SWCLK'
+    @(6400 mils, 10600 mils): Label 'SWDIO'
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 8550 mils): Symbol U1 Pin 97 [PE0, Bidirectional, Line]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(10250 mils, 7050 mils): Symbol C [C]
+    @(10350 mils, 7200 mils): Symbol C [C]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(7250 mils, 10150 mils): Symbol J2 Pin 7 [Pin_7, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 8650 mils): Symbol U1 Pin 98 [PE1, Bidirectional, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(10200 mils, 7250 mils): Symbol U1 Pin 21 [VDDA, Power input, Line]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(10350 mils, 7200 mils): Symbol C [C]
+    @(15250 mils, 5800 mils): Symbol C [C]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 8850 mils): Symbol U1 Pin 2 [PE3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 8950 mils): Symbol U1 Pin 3 [PE4, Bidirectional, Line]
+[multiple_net_names]: Both VDD and VTref are attached to the same items; VDD will be used in the netlist
+    ; warning
+    @(11450 mils, 4150 mils): Label 'VDD'
+    @(7300 mils, 10450 mils): Label 'VTref'
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(10650 mils, 7150 mils): Symbol C [C_Small]
+    @(9050 mils, 7250 mils): Symbol C [C]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 9150 mils): Symbol U1 Pin 5 [PE6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 9250 mils): Symbol U1 Pin 37 [PE7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 9450 mils): Symbol U1 Pin 39 [PE9, Bidirectional, Line]
+[duplicate_reference]: Duplicate items CIN?
+
+    ; error
+    @(12700 mils, 3300 mils): Symbol CIN [C_Small]
+    @(13050 mils, 3300 mils): Symbol CIN [C_Small]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 9550 mils): Symbol U1 Pin 40 [PE10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 9650 mils): Symbol U1 Pin 41 [PE11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 7650 mils): Symbol U1 Pin 22 [PA0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 9750 mils): Symbol U1 Pin 42 [PE12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 7750 mils): Symbol U1 Pin 23 [PA1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 9850 mils): Symbol U1 Pin 43 [PE13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 7850 mils): Symbol U1 Pin 24 [PA2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 7950 mils): Symbol U1 Pin 25 [PA3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 9950 mils): Symbol U1 Pin 44 [PE14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 10050 mils): Symbol U1 Pin 45 [PE15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 10250 mils): Symbol U1 Pin 81 [PD0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 8450 mils): Symbol U1 Pin 67 [PA8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 10350 mils): Symbol U1 Pin 82 [PD1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 8550 mils): Symbol U1 Pin 68 [PA9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 10450 mils): Symbol U1 Pin 83 [PD2, Bidirectional, Line]
+[duplicate_reference]: Duplicate items C1
+
+    ; error
+    @(13400 mils, 3300 mils): Symbol C1 [C_Small]
+    @(8150 mils, 6950 mils): Symbol C1 [C]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(13500 mils, 3000 mils): Symbol U8 Pin 11 [L1, Unspecified, Line]
+    @(14150 mils, 2400 mils): Symbol L Pin 1 [1, Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 8650 mils): Symbol U1 Pin 69 [PA10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 10550 mils): Symbol U1 Pin 84 [PD3, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 8750 mils): Symbol U1 Pin 70 [PA11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 10650 mils): Symbol U1 Pin 85 [PD4, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 8850 mils): Symbol U1 Pin 71 [PA12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 10750 mils): Symbol U1 Pin 86 [PD5, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(13500 mils, 3900 mils): Symbol U8 Pin 3 [VAUX, Unspecified, Line]
+    @(13500 mils, 3300 mils): Symbol U8 Pin 13 [VIN, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 10850 mils): Symbol U1 Pin 87 [PD6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 9150 mils): Symbol U1 Pin 77 [PA15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 10950 mils): Symbol U1 Pin 88 [PD7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 11050 mils): Symbol U1 Pin 55 [PD8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 9350 mils): Symbol U1 Pin 34 [PB0, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 11150 mils): Symbol U1 Pin 56 [PD9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 9450 mils): Symbol U1 Pin 35 [PB1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 11250 mils): Symbol U1 Pin 57 [PD10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 9550 mils): Symbol U1 Pin 36 [PB2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 11350 mils): Symbol U1 Pin 58 [PD11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 11450 mils): Symbol U1 Pin 59 [PD12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 9850 mils): Symbol U1 Pin 91 [PB5, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 11550 mils): Symbol U1 Pin 60 [PD13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 11650 mils): Symbol U1 Pin 61 [PD14, Bidirectional, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'TPS63070'
+    ; warning
+    @(14300 mils, 3800 mils): Symbol U8 [TPS63070RNMT]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 11750 mils): Symbol U1 Pin 62 [PD15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 10150 mils): Symbol U1 Pin 95 [PB8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 10250 mils): Symbol U1 Pin 96 [PB9, Bidirectional, Line]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(8900 mils, 11950 mils): Symbol C [C_Small]
+    @(8900 mils, 12050 mils): Symbol C [C_Small]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 10350 mils): Symbol U1 Pin 46 [PB10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 10450 mils): Symbol U1 Pin 47 [PB11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 10550 mils): Symbol U1 Pin 51 [PB12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 10650 mils): Symbol U1 Pin 52 [PB13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 10750 mils): Symbol U1 Pin 53 [PB14, Bidirectional, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(12800 mils, 8350 mils): Symbol U2 Pin 5 [SDO, Bidirectional, Line]
+    @(12800 mils, 8150 mils): Symbol U2 Pin 3 [VSS, Power output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 10850 mils): Symbol U1 Pin 54 [PB15, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15100 mils, 3000 mils): Symbol U8 Pin 9 [L2, Unspecified, Line]
+    @(14450 mils, 2400 mils): Symbol L Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(15100 mils, 3200 mils): Symbol U8 Pin 8 [VOUT, Power output, Line]
+    @(11050 mils, 4150 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 11050 mils): Symbol U1 Pin 15 [PC0, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(15100 mils, 3300 mils): Symbol U8 Pin 7 [VOUT, Power output, Line]
+    @(15100 mils, 3200 mils): Symbol U8 Pin 8 [VOUT, Power output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 11150 mils): Symbol U1 Pin 16 [PC1, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 11250 mils): Symbol U1 Pin 17 [PC2_C, Bidirectional, Line]
+[duplicate_reference]: Duplicate items C4
+
+    ; error
+    @(15300 mils, 3300 mils): Symbol C4 [C_Small]
+    @(12300 mils, 11550 mils): Symbol C4 [C]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 11350 mils): Symbol U1 Pin 18 [PC3_C, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 11450 mils): Symbol U1 Pin 32 [PC4, Bidirectional, Line]
+[duplicate_reference]: Duplicate items R1
+
+    ; error
+    @(15400 mils, 3400 mils): Symbol R1 [R_US]
+    @(11300 mils, 11550 mils): Symbol R1 [R_US]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 11550 mils): Symbol U1 Pin 33 [PC5, Bidirectional, Line]
+[duplicate_reference]: Duplicate items R2
+
+    ; error
+    @(15400 mils, 3850 mils): Symbol R2 [R_US]
+    @(16200 mils, 9000 mils): Symbol R2 [R_US]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 11650 mils): Symbol U1 Pin 63 [PC6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(13100 mils, 9200 mils): Symbol U5 Pin 1 [SCLK, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(13100 mils, 9200 mils): Symbol U5 Pin 1 [SCLK, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 11850 mils): Symbol U1 Pin 65 [PC8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 11950 mils): Symbol U1 Pin 66 [PC9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 12050 mils): Symbol U1 Pin 78 [PC10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(13100 mils, 9600 mils): Symbol U5 Pin 5 [INT1, Output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 12150 mils): Symbol U1 Pin 79 [PC11, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(13100 mils, 9700 mils): Symbol U5 Pin 6 [INT2, Output, Line]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(15250 mils, 5800 mils): Symbol C [C]
+    @(8900 mils, 11950 mils): Symbol C [C_Small]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 12250 mils): Symbol U1 Pin 80 [PC12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 12350 mils): Symbol U1 Pin 7 [PC13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 12450 mils): Symbol U1 Pin 8 [PC14, Bidirectional, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(14400 mils, 8050 mils): Symbol U2 Pin 9 [VSS, Power output, Line]
+    @(12800 mils, 8150 mils): Symbol U2 Pin 3 [VSS, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(14400 mils, 8150 mils): Symbol U2 Pin 8 [VSS, Power output, Line]
+    @(14400 mils, 8050 mils): Symbol U2 Pin 9 [VSS, Power output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(10800 mils, 12550 mils): Symbol U1 Pin 9 [PC15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(14400 mils, 8350 mils): Symbol U2 Pin 6 [CSB, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(14400 mils, 8350 mils): Symbol U2 Pin 6 [CSB, Input, Line]
+[duplicate_reference]: Duplicate items COUT?
+
+    ; error
+    @(16400 mils, 3300 mils): Symbol COUT [C_Small]
+    @(16750 mils, 3300 mils): Symbol COUT [C_Small]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(12750 mils, 10850 mils): Symbol U3 Pin 2 [GND, Power output, Line]
+    @(12800 mils, 8150 mils): Symbol U2 Pin 3 [VSS, Power output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(12750 mils, 11350 mils): Symbol U3 Pin 7 [SWDIO, Bidirectional, Line]
+[duplicate_reference]: Duplicate items COUT?
+
+    ; error
+    @(16750 mils, 3300 mils): Symbol COUT [C_Small]
+    @(17100 mils, 3300 mils): Symbol COUT [C_Small]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(12750 mils, 11450 mils): Symbol U3 Pin 8 [SWCLK, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(12750 mils, 11450 mils): Symbol U3 Pin 8 [SWCLK, Input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(12750 mils, 11550 mils): Symbol U3 Pin 9 [CAP, Unspecified, Line]
+    @(12450 mils, 11550 mils): Symbol C4 Pin 2 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(12750 mils, 11650 mils): Symbol U3 Pin 10 [BL_IND, Output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(12750 mils, 11750 mils): Symbol U3 Pin 11 [NRESET, Unspecified, Line]
+    @(11300 mils, 11700 mils): Symbol R1 Pin 2 [Passive, Line]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(16450 mils, 5750 mils): Symbol C [C]
+    @(10100 mils, 6350 mils): Symbol C [C]
+[unannotated]: Item not annotated: C?
+    ; error
+    @(16450 mils, 5750 mils): Symbol C [C]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(15500 mils, 9200 mils): Symbol U5 Pin 12 [VDDIO, Power input, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(15500 mils, 9300 mils): Symbol U5 Pin 11 [GND, Power output, Line]
+    @(14400 mils, 8150 mils): Symbol U2 Pin 8 [VSS, Power output, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(15500 mils, 9400 mils): Symbol U5 Pin 10 [VS, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(15500 mils, 9600 mils): Symbol U5 Pin 8 [ADC_IN, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(15500 mils, 9600 mils): Symbol U5 Pin 8 [ADC_IN, Input, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(15500 mils, 9700 mils): Symbol U5 Pin 7 [GND, Power output, Line]
+    @(15500 mils, 9300 mils): Symbol U5 Pin 11 [GND, Power output, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(15350 mils, 10850 mils): Symbol U3 Pin 27 [XIN32, Input, Line]
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(15350 mils, 10850 mils): Symbol U3 Pin 27 [XIN32, Input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(15350 mils, 10950 mils): Symbol U3 Pin 26 [XOUT32, Output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(15350 mils, 11050 mils): Symbol U3 Pin 25 [GNDIO, Power output, Line]
+    @(12750 mils, 10850 mils): Symbol U3 Pin 2 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(15350 mils, 11750 mils): Symbol U3 Pin 18 [COM2, Bidirectional, Line]
+    @(15350 mils, 11050 mils): Symbol U3 Pin 25 [GNDIO, Power output, Line]
+
+ ** ERC messages: 132  Errors 117  Warnings 15

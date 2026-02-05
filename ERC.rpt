@@ -1,0 +1,197 @@
+ERC report (2025-12-24T19:30:17-0500, Encoding UTF8)
+
+***** Sheet /
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(2150 mils, 8100 mils): Symbol J4 Pin SW-B [SW-B, Bidirectional, Line]
+    @(12800 mils, 8150 mils): Symbol U2 Pin 3 [VSS, Power output, Line]
+[lib_symbol_mismatch]: Symbol 'DM3BT-DSF-PEJS' doesn't match copy in library 'DM3BT-DSF-PEJS'
+    ; warning
+    @(2850 mils, 8100 mils): Symbol J4 [DM3BT-DSF-PEJS]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(7850 mils, 6900 mils): Symbol U4 Pin 5 [SDO, Bidirectional, Line]
+    @(12800 mils, 8150 mils): Symbol U2 Pin 3 [VSS, Power output, Line]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(9050 mils, 7250 mils): Symbol C [C]
+    @(9550 mils, 7200 mils): Symbol C [C]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(10100 mils, 6350 mils): Symbol C [C]
+    @(10650 mils, 7150 mils): Symbol C [C_Small]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(9650 mils, 7050 mils): Symbol C [C]
+    @(9750 mils, 6950 mils): Symbol C [C]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(9550 mils, 7200 mils): Symbol C [C]
+    @(9650 mils, 7050 mils): Symbol C [C]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(9750 mils, 6950 mils): Symbol C [C]
+    @(10150 mils, 6950 mils): Symbol C [C]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(10150 mils, 6950 mils): Symbol C [C]
+    @(10250 mils, 7050 mils): Symbol C [C]
+[label_multiple_wires]: Label connects more than one wire at 2540000, 1828800
+    ; warning
+    @(10000 mils, 7200 mils): Label 'VDD'
+    @(10000 mils, 6950 mils): Vertical Wire, length 300 mils
+[label_multiple_wires]: Label connects more than one wire at 2565400, 1816100
+    ; warning
+    @(10100 mils, 7150 mils): Label 'VDD'
+    @(10100 mils, 7050 mils): Vertical Wire, length 200 mils
+[multiple_net_names]: Both SWCLK and SWDIO are attached to the same items; SWCLK will be used in the netlist
+    ; warning
+    @(6500 mils, 10400 mils): Label 'SWCLK'
+    @(6400 mils, 10600 mils): Label 'SWDIO'
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(10250 mils, 7050 mils): Symbol C [C]
+    @(10350 mils, 7200 mils): Symbol C [C]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(10200 mils, 7250 mils): Symbol U1 Pin 21 [VDDA, Power input, Line]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(10350 mils, 7200 mils): Symbol C [C]
+    @(15250 mils, 5800 mils): Symbol C [C]
+[multiple_net_names]: Both VDD and VTref are attached to the same items; VDD will be used in the netlist
+    ; warning
+    @(11450 mils, 4150 mils): Label 'VDD'
+    @(7300 mils, 10450 mils): Label 'VTref'
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(10650 mils, 7150 mils): Symbol C [C_Small]
+    @(9050 mils, 7250 mils): Symbol C [C]
+[duplicate_reference]: Duplicate items CIN?
+
+    ; error
+    @(12700 mils, 3300 mils): Symbol CIN [C_Small]
+    @(13050 mils, 3300 mils): Symbol CIN [C_Small]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9000 mils, 9550 mils): Symbol U1 Pin 40 [PE10, Bidirectional, Line]
+[duplicate_reference]: Duplicate items C1
+
+    ; error
+    @(13400 mils, 3300 mils): Symbol C1 [C_Small]
+    @(8150 mils, 6950 mils): Symbol C1 [C]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(13500 mils, 3000 mils): Symbol U8 Pin 11 [L1, Unspecified, Line]
+    @(14150 mils, 2400 mils): Symbol L Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(13500 mils, 3900 mils): Symbol U8 Pin 3 [VAUX, Unspecified, Line]
+    @(13500 mils, 3300 mils): Symbol U8 Pin 13 [VIN, Power input, Line]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'TPS63070'
+    ; warning
+    @(14300 mils, 3800 mils): Symbol U8 [TPS63070RNMT]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(8900 mils, 11950 mils): Symbol C [C_Small]
+    @(8900 mils, 12050 mils): Symbol C [C_Small]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(12800 mils, 8350 mils): Symbol U2 Pin 5 [SDO, Bidirectional, Line]
+    @(12800 mils, 8150 mils): Symbol U2 Pin 3 [VSS, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(15100 mils, 3000 mils): Symbol U8 Pin 9 [L2, Unspecified, Line]
+    @(14450 mils, 2400 mils): Symbol L Pin 2 [2, Passive, Line]
+[duplicate_reference]: Duplicate items C4
+
+    ; error
+    @(15300 mils, 3300 mils): Symbol C4 [C_Small]
+    @(12300 mils, 11550 mils): Symbol C4 [C]
+[duplicate_reference]: Duplicate items R1
+
+    ; error
+    @(15400 mils, 3400 mils): Symbol R1 [R_US]
+    @(11300 mils, 11550 mils): Symbol R1 [R_US]
+[duplicate_reference]: Duplicate items R2
+
+    ; error
+    @(15400 mils, 3850 mils): Symbol R2 [R_US]
+    @(16200 mils, 9000 mils): Symbol R2 [R_US]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(15250 mils, 5800 mils): Symbol C [C]
+    @(8900 mils, 11950 mils): Symbol C [C_Small]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(14400 mils, 8050 mils): Symbol U2 Pin 9 [VSS, Power output, Line]
+    @(12800 mils, 8150 mils): Symbol U2 Pin 3 [VSS, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(14400 mils, 8150 mils): Symbol U2 Pin 8 [VSS, Power output, Line]
+    @(14400 mils, 8050 mils): Symbol U2 Pin 9 [VSS, Power output, Line]
+[duplicate_reference]: Duplicate items COUT?
+
+    ; error
+    @(16400 mils, 3300 mils): Symbol COUT [C_Small]
+    @(16750 mils, 3300 mils): Symbol COUT [C_Small]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(12750 mils, 10850 mils): Symbol U3 Pin 2 [GND, Power output, Line]
+    @(12800 mils, 8150 mils): Symbol U2 Pin 3 [VSS, Power output, Line]
+[duplicate_reference]: Duplicate items COUT?
+
+    ; error
+    @(16750 mils, 3300 mils): Symbol COUT [C_Small]
+    @(17100 mils, 3300 mils): Symbol COUT [C_Small]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(12750 mils, 11550 mils): Symbol U3 Pin 9 [CAP, Unspecified, Line]
+    @(12450 mils, 11550 mils): Symbol C4 Pin 2 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(12750 mils, 11750 mils): Symbol U3 Pin 11 [NRESET, Unspecified, Line]
+    @(11300 mils, 11700 mils): Symbol R1 Pin 2 [Passive, Line]
+[duplicate_reference]: Duplicate items C?
+
+    ; error
+    @(16450 mils, 5750 mils): Symbol C [C]
+    @(10100 mils, 6350 mils): Symbol C [C]
+[unannotated]: Item not annotated: C?
+    ; error
+    @(16450 mils, 5750 mils): Symbol C [C]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(15500 mils, 9200 mils): Symbol U5 Pin 12 [VDDIO, Power input, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(15500 mils, 9300 mils): Symbol U5 Pin 11 [GND, Power output, Line]
+    @(14400 mils, 8150 mils): Symbol U2 Pin 8 [VSS, Power output, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(15500 mils, 9400 mils): Symbol U5 Pin 10 [VS, Power input, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(15500 mils, 9700 mils): Symbol U5 Pin 7 [GND, Power output, Line]
+    @(15500 mils, 9300 mils): Symbol U5 Pin 11 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(15350 mils, 11050 mils): Symbol U3 Pin 25 [GNDIO, Power output, Line]
+    @(12750 mils, 10850 mils): Symbol U3 Pin 2 [GND, Power output, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(15350 mils, 11750 mils): Symbol U3 Pin 18 [COM2, Bidirectional, Line]
+    @(15350 mils, 11050 mils): Symbol U3 Pin 25 [GNDIO, Power output, Line]
+
+ ** ERC messages: 45  Errors 30  Warnings 15

@@ -1,0 +1,73 @@
+.title KiCad schematic
+C17 /GND /VDD 1 µF (0603)
+C20 /GND /VDD 100 nF (0603)
+C19 /GND /VDD 100 nF (0603)
+FB1 __FB1
+C28 Net-_U1-VREF+_ /GND C (100 nF)
+C21 /GND Net-_U1-VDDA_ 100 nF (0603)
+C22 Net-_U1-VDDA_ /GND 1 µF (0603)
+R7 Net-_D1-A_ Net-_U1-PE8_ R (330 Ω)
+C10 /VDD /GND 100 nF (0603)
+C12 /VDD /GND 100 nF (0603)
+C14 /VDD /GND 100 nF (0603)
+C9 /VDD /GND 100 nF (0603)
+R(PULL)3 /VDD /NRST R (10 kΩ)
+C29 /GND /NRST C (100 nF)
+C(BME688)1 /GND /VDD C (100 nF)
+R_Series_MicroSD_2 Net-_U1-PA6_ Net-_J4-DAT0_ 33
+R_Series_MicroSD_3 Net-_U1-PA7_ Net-_J4-CMD_ 33
+R_Series_MicroSD_1 Net-_U1-PA5_ Net-_J4-CLK_ 33
+R(PULL)2 /SCL /VDD R (4.7 kΩ)
+R(PULL)1 /SDA /VDD R (4.7 kΩ)
+U2 __U2
+C8 /GND /VDD C (100 nF)
+C11 /GND /VDD C (100 nF)
+C31 /GND Net-_U5-VDDIO_ C (0.1 µF)
+C30 /GND Net-_U5-VREG_OUT_ C (200 nF)
+U5 __U5
+FB2 __FB2
+R(ADXL367)1 Net-_U5-VS_ Net-_U5-VDDIO_ R (10 kΩ)
+C18 /GND Net-_U5-VS_ C (0.1 µF)
+C(BNO055)1 /GND Net-_U3-CAP_ C (1 µF)
+C13 /GND /VDD C (120 nF)
+U3 __U3
+R(NRESET)1 Net-_U1-PC7_ /VDD R (10 kΩ)
+C3 /VDD /GND C (100 nF)
+R(PULL)10 /VDD Net-_U3-NBOOT_LOAD_PIN_ R (10 kΩ)
+J3 __J3
+COUT2 /VDD /GND 22 µF (0805)
+COUT3 /VDD /GND 22 µF (0805)
+C23 /VDD /GND 100u
+C24 /VDD /GND 1u
+C4 /VDD /GND 10 µF (0603)
+CIN2 /VDD /GND 10 µF (0805)
+CIN1 /VDD /GND 10 µF (0805)
+C1 /VDD /GND 10 µF (0603)
+R5 Net-_U8-EN_ /VDD 10k
+CVAUX1 /VDD /GND 100n
+L1 Net-_U8-L1_ Net-_U8-L2_ 1.5u
+U8 __U8
+R2 /GND Net-_U8-FB_ 150k
+R4 Net-_U8-PG_ /VDD 100k
+COUT1 /VDD /GND 22 µF (0805)
+R1 Net-_U8-FB_ /VDD 470k
+R_Pull_MicroSD_2 /VDD Net-_J4-CMD_ 4.7k
+R_Pull_MicroSD_1 /VDD Net-_J4-DAT0_ 4.7k
+R_Pull_MicroSD_3 /VDD Net-_J4-DAT3/CD_ 4.7k
+R_Pull_MicroSD_4 /VDD Net-_J4-DAT2_ 4.7k
+R_Pull_MicroSD_5 /VDD Net-_J4-DAT1_ 4.7k
+R_Pull_MicroSD_6 Net-_U1-PE2_ /VDD 4.7k
+U4 __U4
+C15 /VDD /GND C (100 nF)
+C16 /VDD /GND C (1 µF)
+J4 __J4
+R(PULL)4 /GND Net-_U1-BOOT0_ R (100 kΩ)
+C(BME688)2 /GND /VDD C (100 nF)
+BZ1 __BZ1
+J2 __J2
+C6 /VDD /GND C (10 µF)
+D1 /GND Net-_D1-A_ LED
+U1 __U1
+C5 /GND Net-_C5-Pad2_ 2.2u
+C7 Net-_C7-Pad2_ /GND 2.2u
+.end
